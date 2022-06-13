@@ -1,10 +1,11 @@
 import React from "react";
+import Routing from "./routes/Routing";
 
 function App() {
   return (
-    <div className="App">
-      <h2>Assalam u Alaikum</h2>
-    </div>
+    <>
+      <Routing />
+    </>
   );
 };
 
