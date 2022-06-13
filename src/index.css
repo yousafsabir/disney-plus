@@ -1,3 +1,29 @@
+/* Fonts */
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/fonts/Avenir-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/fonts/Avenir-Roman.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/fonts/Avenir-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/fonts/Avenir-Heavy.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -60,4 +86,11 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+/* General Styles */
+body {
+    background-color: #040417;
+    color: #f9f9f9;
+    font-family: Avenir, sans-serif;
 }
