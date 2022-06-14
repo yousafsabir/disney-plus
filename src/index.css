@@ -1,25 +1,25 @@
 /* Fonts */
 @font-face {
     font-family: Avenir;
-    src: url("./assets/fonts/Avenir-Light.ttf");
+    src: url("./assets/fonts/Avenir-Light.woff2");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: Avenir;
-    src: url("./assets/fonts/Avenir-Roman.ttf");
+    src: url("./assets/fonts/Avenir-Roman.woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Avenir;
-    src: url("./assets/fonts/Avenir-Medium.ttf");
+    src: url("./assets/fonts/Avenir-Medium.woff2");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: Avenir;
-    src: url("./assets/fonts/Avenir-Heavy.ttf");
+    src: url("./assets/fonts/Avenir-Heavy.woff2");
     font-weight: 900;
     font-style: normal;
 }
@@ -32,7 +32,7 @@
 body {
     background-color: #040417;
     color: #f9f9f9;
-    font-family: Avenir, sans-serif;
+    font-family: Avenir;
 }
 
 /* Responsive Fonts */
