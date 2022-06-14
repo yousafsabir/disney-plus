@@ -42,10 +42,10 @@ const ImgSlider = () => {
             overflow: initial;
         }
         .slick-prev {
-            left: -75px;
+            left: -45px;
         }
         .slick-next {
-            right: -75px;
+            right: -45px;
         }
     `;
     const Wrap = styled.div`
