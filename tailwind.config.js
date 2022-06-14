@@ -10,7 +10,8 @@ module.exports = {
         'home-bg': "url('../src/assets/images/home-background.png')",
       },
       colors: {
-        'login-btn': "#065DE4"
+        'login-btn': "#0063E4",
+        'body-bg': "#040417"
       }
     },
   },
