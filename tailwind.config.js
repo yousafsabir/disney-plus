@@ -11,6 +11,7 @@ module.exports = {
                 "login-btn": "#0063E4",
                 "body-bg": "#040417",
                 "viewer-border": "#f9f9f91a",
+                recommended: "rgba(249,249,249,0.6)",
             },
             transitionTimingFunction: {
                 viewer: "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
