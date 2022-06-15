@@ -1,15 +1,15 @@
 import React from "react";
 import MovieCardWrap from "./MovieCardWrap";
-import { getRecommended } from "../redux/slices/MovieSlice";
+import { getNew } from "../redux/slices/MovieSlice";
 import { useSelector } from "react-redux/es/exports";
 
-const Recommended = () => {
-    const recommended = useSelector((state) => getRecommended(state));
+const New = () => {
+    const newmovies = useSelector((state) => getNew(state));
     return (
         <div className="py-8">
-            <h4 className="mb-5 text-2xl">Recommended For You</h4>
+            <h4 className="mb-5 text-2xl">New to Disney</h4>
             <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
-                {recommended.map((item, i) => {
+                {newmovies.map((item, i) => {
                     return (
                         <div key={i}>
                             <MovieCardWrap img={item.cardImg} />
@@ -21,4 +21,4 @@ const Recommended = () => {
     );
 };
 
-export default Recommended;
+export default New;
