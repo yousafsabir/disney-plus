@@ -33,6 +33,9 @@ body {
     background-color: #040417;
     color: #f9f9f9;
     font-family: Avenir;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
 }
 
 /* Responsive Fonts */

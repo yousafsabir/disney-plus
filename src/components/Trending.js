@@ -12,7 +12,7 @@ const Trending = () => {
                 {trending.map((item, i) => {
                     return (
                         <div key={i}>
-                            <MovieCardWrap img={item.cardImg} />
+                            <MovieCardWrap id={item.id} img={item.cardImg} />
                         </div>
                     );
                 })}

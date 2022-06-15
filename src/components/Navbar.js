@@ -6,13 +6,20 @@ import WatchlistIcon from "../assets/images/WatchlistIcon";
 import OriginalsIcon from "../assets/images/OriginalsIcon";
 import MoviesIcon from "../assets/images/MoviesIcon";
 import SeriesIcon from "../assets/images/SeriesIcon";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 w-full overflow-hidden bg-body-bg ">
             <div className="container mx-auto flex items-center justify-between px-10 py-3">
                 <div className="flex items-center gap-16 ">
-                    <img className="w-28" src={DisneyLogo} alt="Logo-Disney" />
+                    <Link to="/">
+                        <img
+                            className="w-28"
+                            src={DisneyLogo}
+                            alt="Logo-Disney"
+                        />
+                    </Link>
                     <div className="hidden gap-10 xl:flex  ">
                         <div className="flex items-center space-x-3">
                             <HomeIcon width={"36"} />
@@ -40,7 +47,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <button className="rounded border border-white bg-black bg-opacity-60 hover:bg-white hover:text-black transition-colors duration-200 ease-linear transparent px-5 py-2 text-lg uppercase tracking-wider text-white">
+                <button className="transparent rounded border border-white bg-black bg-opacity-60 px-5 py-2 text-lg uppercase tracking-wider text-white transition-colors duration-200 ease-linear hover:bg-white hover:text-black">
                     Login
                 </button>
             </div>
