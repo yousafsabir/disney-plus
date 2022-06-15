@@ -229,5 +229,14 @@ const MovieSlice = createSlice({
 export const getRecommended = (state) => {
     return state.movies.value.filter((item) => item.type === "recommend");
 };
+export const getTrending = (state) => {
+    return state.movies.value.filter((item) => item.type === "trending");
+};
+export const getNew = (state) => {
+    return state.movies.value.filter((item) => item.type === "new");
+};
+export const getOriginal = (state) => {
+    return state.movies.value.filter((item) => item.type === "original");
+};
 
 export default MovieSlice.reducer;
