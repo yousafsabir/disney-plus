@@ -27,5 +27,8 @@ module.exports = {
         function ({ addVariant }) {
             addVariant("video-hover", "&:hover > video");
         },
+        function ({ addVariant }) {
+            addVariant("navitem-hover", "&:hover > span");
+        },
     ],
 };
