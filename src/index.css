@@ -36,6 +36,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeSpeed;
+    overflow-x: hidden;
 }
 
 /* Responsive Fonts */
