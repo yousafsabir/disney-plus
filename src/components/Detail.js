@@ -27,11 +27,11 @@ const Detail = () => {
                     className="absolute top-0 left-0 right-0 bottom-0 -z-10 h-[calc(100vh-85px)] w-full object-cover"
                     alt=""
                 />
-                <div className="ml-4 flex max-w-[600px] flex-col justify-start pt-8 md:ml-12 md:pt-14">
+                <div className="ml-4 mr-6 flex max-w-[600px] flex-col justify-start pt-8 md:mr-0 md:ml-12 md:pt-14">
                     <img
                         src={movie[0]?.titleImg}
                         alt=""
-                        className="mb-12 min-w-[200px] max-w-[500px]"
+                        className="mb-12 min-w-[100px] max-w-[500px]"
                     />
                     <div className="cta mb-7 flex items-center gap-2 md:gap-3">
                         <button className="flex items-center justify-center  gap-1 rounded border border-white bg-white py-2 pl-2 pr-4 md:py-3 md:pl-3 md:pr-5">
