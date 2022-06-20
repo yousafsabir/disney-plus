@@ -29,6 +29,10 @@
 @tailwind utilities;
 
 /* General Styles */
+html,
+body {
+    overflow-x: hidden;
+}
 body {
     background-color: #040417;
     color: #f9f9f9;
@@ -36,7 +40,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeSpeed;
-    overflow-x: hidden;
 }
 
 /* Responsive Fonts */
