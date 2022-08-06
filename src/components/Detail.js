@@ -11,11 +11,8 @@ const Detail = () => {
     const [movie, setMovie] = useState({});
 
     useEffect(() => {
-        let unsub = () => {
-            setMovie(data.filter((item) => item.id === id));
-            console.log(movie);
-        };
-        return unsub;
+        setMovie(data.filter((item) => item.id === id));
+        console.log(movie);
     }, [id]);
 
     return (
